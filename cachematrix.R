@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This is the assignment for Coursera course R-programming.
+## ,containing two functions 
 
-## Write a short comment describing this function
+## This funtion create a vector of a list to set the value of the vector, get the value of the vector, 
+## then set the value of the mean and get the value of the mean.
 
 makeCacheMatrix <- function(x = matrix()) {
 	    i <- NULL
@@ -21,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 	}
 
 
-## Write a short comment describing this function
+## This function calculates the mean of the special "vector" created with the above function.
 
 cacheSolve <- function(x, ...) {
 	    i <- x$getinverse()
